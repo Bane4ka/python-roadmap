@@ -1,5 +1,5 @@
 import random
-Balance=1000
+Balance=100000
 while input('Хотите сыграть? (да/нет): ').lower()=='да':
     Bet=int(input(f'''
     Добро пожаловать в казино!
