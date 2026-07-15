@@ -4,6 +4,9 @@ menu_text='''
 3. Показать список
 4. Выйти
 '''
+def get_menu_choice(user_answer):
+    print(menu_text)
+
 user_answer=int(input(f'{menu_text}'))
 shopping_list=list()
 while user_answer!=4:
